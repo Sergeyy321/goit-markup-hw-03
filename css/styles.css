@@ -28,22 +28,21 @@ margin-right: auto;
 
 }
 
-.about-title-text{padding-top: 0;
-    width: calc((100%-48px)/3);
+.about-title-text{
+    width: calc((100% - 48px) / 3);
     
    
 }
-.title-about-container{ width:360px ;  border-left: 1px solid var(--minor-colour);
+.title-about-container{   border-left: 1px solid var(--minor-colour);
     border-right: 1px solid var(--minor-colour);
     border-bottom: 1px solid var(--minor-colour);
     padding-top: 32px;padding-bottom: 32px;
-    padding-left: 16px;margin-bottom: 48px;
-    
+    padding-left: 16px;
 }
 .about-title-text :nth-child(3n){margin-right: 0;}
-.container-content{width: 1158px; margin-left: auto;margin-right: auto;}
+
 .about-list{display: flex;flex-wrap: wrap; padding-left: 0;
-    margin-bottom: 120px;margin: 0;
+   margin: 0; gap: 48px 24px;
     }
     .about-list :nth-child(3n){margin-right: 0;}
     .about-list :nth-child(n+7){margin-bottom: 0;}
@@ -65,21 +64,17 @@ margin-right: auto;
 /* title */
 
 .logo {
-display: flex;
-align-items: center;
     font-weight: 800;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     line-height: 1.17;
-    letter-spacing: 0.03em;
+     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--extra-background-color);
     margin-right: 76px;
-    margin-top: 16px;
- margin-bottom: 16px;
 }
 
-.header-nav{display: flex;}
+.header-nav{display: flex; align-items: center;}
 .address {
     font-style: normal;
     margin-left: auto;  
@@ -94,7 +89,6 @@ align-items: center;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     line-height: 1.33;
-    display: flex;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--second-title-color);   
@@ -300,7 +294,6 @@ background-color: var(--extra-title-color);}
     color: var(--second-title-color);
     padding-bottom: 8px;
 }
-
 .title-text {
 font-weight: 400;
  font-size: 16px;
@@ -311,19 +304,14 @@ line-height: 1.5;
 }
 /*footer */
 .footer-logo{
-   
     font-weight: 800;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     line-height: 1.33;
-    display: flex;
-   
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--extra-title-color);
-    
 }
-
 .footer-text {
     font-family: 'Roboto';
     
@@ -334,7 +322,6 @@ line-height: 1.5;
     color: var(--minor-colour);
 width: 264px;
 }
-
 .footer {
     background-color: var(--second-title-color);
     height: 312px;
