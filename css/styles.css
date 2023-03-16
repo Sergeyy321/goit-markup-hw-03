@@ -303,7 +303,7 @@ background-color: var(--extra-title-color);}
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--second-title-color);
-    padding-bottom: 8px;
+ margin-bottom: 8px;
 }
 .title-text {
 font-weight: 400;
