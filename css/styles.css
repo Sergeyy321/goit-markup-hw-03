@@ -332,7 +332,6 @@ line-height: 1.5;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--minor-colour);
-width: 264px;
 margin-top: 16px;
 }
 .footer {
@@ -342,5 +341,5 @@ margin-top: 16px;
     padding-bottom: 100px;
     
 }
-.footer-container{width: 115px;}
+.footer-container{width: 264px;}
 /* color */
